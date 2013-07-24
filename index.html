@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+ 
+    
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="Pindapps: Acompáñanos en la creación de una plataforma didáctica, confiable y entretenida, que promueve estilos de vida   
+        saludable." />
+        <title>Pindapps - Pronto disponible Nuestra Aplicación móvil que te ayudará en tus decisiones Alimenticias</title>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+        <meta name="author" content="German Pinela">
+        <link href="../img/logo_pinda3.png" rel="icon" type="image/x-icon" />
+        <link rel="stylesheet" href="stylesheets/buttonize3.min.css">
+        <link rel="stylesheet" href="stylesheets/pinda.min.css">
+        <link rel="stylesheet" href="stylesheets/cssindex.css">
+      	<script languaje="JavaScript"> 
+function direccionEmail(theElement, nombre_del_elemento )
+{
+var evaluar = theElement.value;
+var filter=/^[A-Za-z][A-Za-z0-9_]*@[A-Za-z0-9_]+\.[A-Za-z0-9_.]+[A-za-z]$/;
+
+
+ if (evaluar.length  == 0)
+ {alert("E-mail incorrecto");
+ theElement.focus();
+ return false;
+ }
+ else
+ {
+
+  if (filter.test(evaluar))
+  {
+  return true;
+  }
+  else
+  {
+  alert("E-mail incorrecto");
+  theElement.focus();
+  return false;
+
+  }
+
+ }
+}
+</script>
+
+
+</head>
+
+   <body>
+   <!--[if lt IE 7]><cernter><p class="chromeframe"><strong>Usted está utilizando un navegador obsoleto. Por favor,   
+<a href="https://www.google.com/intl/es/chrome/browser/?hl=es">actualice su navegador</a> o 
+<a href="http://www.google.com/chromeframe/?redirect=true">active Google Chrome Frame </a> 
+para mejorar su experiencia.</strong></p></cernter>
+        <![endif]-->
+  		 <div class="row" id="header">
+    		<div class="six columns">
+				<div class="logo centered">
+					<img src="img/logo.png" WIDTH=220px HEIGHT=210px alt="">
+				</div>
+
+     	 		<p class="desc centered">Estamos trabajando en la primera versión de Pindapps.
+					Acompáñanos en la creación de una plataforma didáctica, confiable y entretenida, que promueve una alimentación y estilo de vida saludable.
+					<center>
+						<h5>¡Te estaremos informando!</h5>
+					</center>
+				</p>
+           
+     			<table> 
+     				<form name="datos" action="conex.php" method="post" class="form">
+						<tr> 
+							<td width="80%">
+<input name="email" type="text" id="email" value="Ingrese su Email" onclick="if(this.value=='Ingrese su Email') this.value=''" onblur="if(this.value=='') this.value=''">
+							</td> 
+							<td width="50%">
+<input type="submit" value="Suscribete" id="ok" name="ok" class="buttonize green" onClick="return direccionEmail(email,'email' )">
+							</td> 
+						</tr> 
+					</form>
+				</table>
+
+	  			<div>
+			 		<p class="centered">
+				  		<img src="img/pronto3.png" alt=""/>
+				  		</a>
+					</p>
+		  		</div>    
+    		</div>
+    
+			<div class="six columns centered">
+				<img src="img/iphonepinda3.png" alt=""/>
+			</div>
+	
+    	</div>
+  	
+  
+		<div id="footer">
+	 		<div class="row">
+	    		<div class="six columns">
+	    			<br>
+	    	   				<center>
+							<a class="face" href="https://www.facebook.com/Pindapps" title="Siguenos en Facebook"></a>
+	    
+							<a class="twitter" href="https://twitter.com/pindapps" title="Siguenos en Twitter"></a>
+							
+							
+	<a class="google" href="https://twitter.com/pindapps" title="Siguenos en Google +"></a>						
+
+
+	
+	      	
+	      						<a class="correo" href="mailto:contacto@pindapps.com" title="Contactanos"></a>
+						
+	      					</center>
+	    		</div>
+	    		<div class="six columns">
+	    		<br>
+	      			<center>
+	      				<a class="links" href="http://blog.pindapps.com" title="Para mas Informacion visita nuestro Blog">Visita Nuestro Blog</a>
+	      				<img class="imgf" src="img/w3.png"/>
+	      			</center>
+	    		</div>
+	 		</div>
+		</div>
+    
+    <script>
+        //google analitics
+    </script>
+
+
+
+
+</body></html>  
+   
